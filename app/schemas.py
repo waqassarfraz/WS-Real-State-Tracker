@@ -17,6 +17,7 @@ class IssueSchema(ma.SQLAlchemyAutoSchema):
     class Meta:
         model = Issue
         load_instance = True
+        include_fk = True
 
     title = ma.String(validate=validate.Length(min=1, max=200), required=True)
     priority = ma.String(validate=validate.OneOf(['low', 'medium', 'high', 'critical']))
