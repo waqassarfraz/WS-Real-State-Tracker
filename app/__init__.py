@@ -12,11 +12,12 @@ def create_app():
 
     db.init_app(app)
     ma.init_app(app)
-
     from app.routes.issues import issues_bp
     from app.routes.vulnerabilities import vulns_bp
+    from app.routes.reports import reports_bp
     app.register_blueprint(issues_bp)
     app.register_blueprint(vulns_bp)
+    app.register_blueprint(reports_bp)
 
     with app.app_context():
         db.create_all()
