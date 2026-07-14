@@ -31,7 +31,7 @@ software problems back to their root security cause.
 5. The API will be available at `http://127.0.0.1:5000`
 
 ## Running Tests
-All 8 automated tests should pass, covering CRUD operations, validation rules, 
+All 15 automated tests should pass, covering CRUD operations, validation rules, 
 and data integrity constraints.
 
 ## API Endpoints
@@ -76,7 +76,7 @@ See `docs/requirements.md` for full field-level requirements, validation rules, 
 ## Testing Evidence
 
 - `postman_collection.json` — importable collection of 13 requests covering every endpoint, including deliberate invalid-data requests used to verify validation
-- `tests/` — automated pytest suite, 8 tests, all passing
+- `tests/` — automated pytest suite, 15 tests, all passing
 
 ## Code Attribution Summary
 
