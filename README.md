@@ -80,10 +80,17 @@ See `docs/requirements.md` for full field-level requirements, validation rules, 
 
 ## Code Attribution Summary
 
-All code in this repository was written by the author (self) unless stated otherwise below. Git commit messages include a `[self]` tag identifying the origin of each commit.
+This project was developed by the author with step-by-step guidance from Claude 
+(Anthropic AI assistant), used throughout for explaining concepts, structuring the 
+codebase, generating code to type in, and debugging errors as they occurred. 
+No pre-existing project, template, or another person's codebase was copied wholesale.
 
 | Commit(s) | Description | Source |
 |---|---|---|
-| All commits | Application code, models, routes, schemas, tests, documentation | Self |
+| All commits | Application code (models, routes, schemas, tests), configuration, and documentation | Self, typed and committed by the author, with structure and code suggested step-by-step by Claude (AI-assisted) and reviewed/understood by the author before committing |
 
-This project was developed with step-by-step guidance from Claude (Anthropic), used to explain concepts, structure the codebase, and debug errors. All code was typed, reviewed, and understood by the author before committing.
+Commit messages in this repository use the `[self]` tag to indicate the author 
+personally wrote, tested, and committed each change. This README note clarifies 
+that AI assistance (Claude) was used as a guided-learning tool throughout the 
+development process, consistent with the assignment's requirement to attribute 
+AI assistance where used.
